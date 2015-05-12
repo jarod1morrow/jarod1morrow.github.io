@@ -3,11 +3,11 @@ body{
 }
 div{
   background-color:red;
-  padding-left:6em;
-  padding-right:6em;
+  padding-left:4em;
+  padding-right:4em;
   height:20em;
   width:20em;
-  border-radius:2em;
+  border-radius:1em;
   margin:auto;
 }
 p{
