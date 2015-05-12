@@ -5,7 +5,6 @@ header{
   width:100%;
 }
 div{
-  vertical-align:middle;
   background-color:red;
   padding-left:2em;
   padding-right:2em;
@@ -23,5 +22,6 @@ p{
   font-size:1em;
 }
 h1{
+  vertical-align:middle;
   font-size:6em;
 }
