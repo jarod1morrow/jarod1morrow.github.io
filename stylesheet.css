@@ -5,6 +5,7 @@ header{
   width:100%;
 }
 div{
+  vertical-align:center;
   background-color:red;
   padding-left:2em;
   padding-right:2em;
