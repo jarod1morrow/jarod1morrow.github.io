@@ -1,3 +1,6 @@
+body{
+  font-family:Arial;
+}
 div{
   background-color:red;
   padding-left:6em;
@@ -5,4 +8,11 @@ div{
   height:20em;
   width:20em;
   border-radius:2em;
+  margin:auto;
+}
+p{
+  font-size:1em;
+}
+h1{
+  font-size:8em;
 }
