@@ -6,6 +6,7 @@ header{
   width:100%;
   position:fixed;
   z-index:1;
+  top:-10px;
 }
 div{
   background-color:#4E90ED;
