@@ -15,7 +15,7 @@ div{
   padding-right:0em;
   height:2em;
   width:2em;
-  border-radius:.25em;
+  border-radius:0em;
   margin:auto;
 }
 div.box{
@@ -28,6 +28,6 @@ p{
 }
 h1{
   vertical-align:middle;
-  font-size:3em;
+  font-size:2em;
   text-align:center;
 }
