@@ -11,8 +11,8 @@ header{
   left:0px;
   top:-6px;
 }
-header:hover{
-  background-color:green;
+div.head:hover{
+  background-color:C2E0ED;
 }
 div{
   background-color:#4E90ED;
@@ -20,6 +20,10 @@ div{
   width:2em;
   border-radius:0em;
   margin:auto;
+}
+div.head{
+  background-color:#9ACFE6;
+  height:1.5em;
 }
 div.box{
   height:9em; 
