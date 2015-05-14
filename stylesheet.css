@@ -16,7 +16,7 @@ div{
   height:2em;
   width:2em;
   border-radius:.25em;
-  margin:0;
+  margin:auto;
 }
 div.box{
   height:9em; 
