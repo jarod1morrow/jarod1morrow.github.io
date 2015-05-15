@@ -11,9 +11,19 @@ header{
   left:0px;
   top:-6px;
 }
+a:link{
+  text-decoration:none;
+  color:black;
+}
+a:visited{
+  color:black;
+}
 img.icon{
-  height:2.5em;
-  width:2.5em;
+  left:.75em;
+  top:.25em;
+  height:2em;
+  width:2em;
+  position:fixed;
 }
 div.head:hover{
   background-color:C2E0ED;
