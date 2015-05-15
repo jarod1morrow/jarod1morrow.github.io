@@ -29,14 +29,13 @@ div.head:hover{
   background-color:C2E0ED;
 }
 div{
-  background-color:#4E90ED;
+  background-color:#9ACFE6;
   height:2em;
   width:2em;
   border-radius:0em;
   margin:auto;
 }
 div.head{
-  background-color:#9ACFE6;
   height:1.5em;
 }
 div.box{
@@ -44,8 +43,17 @@ div.box{
   width:54em; 
   text-align:center;
 }
+div.reg{
+  padding-top:2.5em;
+  padding-right:4em;
+  padding-left:4em;
+  margin-top:5em;
+  height:40em;
+  width:80%;
+}
 p{
-  font-size:1em;
+  font-size:1.25em;
+  text-indent:50px;
 }
 h1{
   vertical-align:middle;
