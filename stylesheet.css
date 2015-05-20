@@ -48,6 +48,8 @@ div.reg{
   padding-right:4em;
   padding-left:4em;
   margin-top:5em;
+  margin-left:auto;
+  margin-right:auto;
   height:40em;
   width:80%;
 }
