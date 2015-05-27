@@ -55,16 +55,19 @@ div.reg{
 	background-color:#9ACFE6;
 }
 div.content{
-	  height:.0001em;
-	  width:66em;
-	  background-color:none;
+	height:.0001em;
+	width:66em;
+	background-color:none;
 }
 p{
-	  font-size:1.25em;
-	  text-indent:50px;
+	font-size:1.25em;
+	text-indent:50px;
+}
+p.noIndent{
+	text-indent:0px;
 }
 h1{
-	  vertical-align:middle;
-	  font-size:20px;
-	  text-align:center;
+	vertical-align:middle;
+	font-size:20px;
+	text-align:center;
 }
