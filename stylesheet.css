@@ -32,10 +32,9 @@ div.head{
 	height:1.5em;
 	border-radius:4px;
 	width:10em;
-	margin-top:auto;
-	margin-bottom:auto-5px;
-	margin-left:12em;
-	margin-right:12em;
+	position:fixed;
+	left:12em;
+	top:.5em;
 	background-color:#9ACFE6;
 }
 div.box{
@@ -55,16 +54,17 @@ div.reg{
 	background-color:#9ACFE6;
 }
 div.content{
-	  height:.0001em;
-	  width:66em;
-	  background-color:none;
+	height:.0001em;
+	width:66em;
+	background-color:none;
 }
 p{
-	  font-size:1.25em;
-	  text-indent:50px;
+	font-size:1.25em;
+	text-indent:50px;
 }
 h1{
-	  vertical-align:middle;
-	  font-size:20px;
-	  text-align:center;
+	margin-top:.07em;
+	vertical-align:top;
+	font-size:20px;
+	text-align:center;
 }
