@@ -64,8 +64,10 @@ p{
 
 }
 h1{
+	font-size:20px;
 	margin-top:.07em;
 	vertical-align:top;
+	text-align:center;
 }
 p.noIndent{
 	text-indent:0px;
