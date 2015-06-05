@@ -18,6 +18,9 @@ a:link{
 a:visited{
 	color:black;
 }
+a.link:hover{
+	color:#144A96;
+}
 img.icon{
 	left:.75em;
 	top:.25em;
@@ -63,12 +66,15 @@ p{
 	text-indent:50px;
 
 }
+p.noIndent{
+	text-indent:0px;
+}
 h1{
 	font-size:20px;
 	margin-top:.07em;
 	vertical-align:top;
 	text-align:center;
 }
-p.noIndent{
-	text-indent:0px;
+h2{
+	
 }
