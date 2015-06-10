@@ -1,6 +1,7 @@
 body{
 	font-family:Arial;
 	background-image:url("PICS/background.JPG");
+	background-size: 100em 75em;
 }
 header{
 	background-color:#144A96;
@@ -55,6 +56,7 @@ div.reg{
 	height:40em;
 	width:70em;
 	background-color:#9ACFE6;
+	opacity: 1;
 }
 div.content{
 	height:.0001em;
