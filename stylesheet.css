@@ -80,3 +80,12 @@ h1{
 h2{
 	
 }
+table.programs{
+	width:100%;
+}
+td.h2{
+	font-size:h2;
+}
+td.p{
+	font-size:1.25em;
+}
