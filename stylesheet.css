@@ -46,6 +46,8 @@ div.head{
 }
 
 div.footer{
+	position: fixed;
+	bottom: 0;
 	background-color: #5D737E;
 	height: 100px;
 }
