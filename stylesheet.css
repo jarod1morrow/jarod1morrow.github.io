@@ -6,7 +6,7 @@ body{
 
 div{
 	overflow: auto;
-	min-width: 320px;
+	min-width: 300px;
 }
 
 div.main{
