@@ -1,9 +1,22 @@
 /* General Styling*/
 * {
 	box-sizing: border-box;
-}
-body{
 	font-family:Arial;
+}
+
+[class*-"col-"] {
+	float: left;
+   	padding: 15px;
+	width: 100%;
+}
+
+.row::after {
+	content: "";
+    	clear: both;
+    	display: table;
+}
+
+body{
 	color: #0E0E0E;
 	background-color:#FCFCFC;
 	margin: 0px;
@@ -13,83 +26,60 @@ div{
 	overflow: auto;
 }
 
-div.main{
-	width: 85%;
-	height: 100%;
-	margin: auto;
-}
-
 div.content{
 	background-color: #EEF0F0;
 	padding: 1%;
 }
 
 div.navigationbar{
-	width: 100%
 	
 }
 
 /* Sidebar Template Styling */
 div.maincontent{
-	float: left;
-	max-width: 70%;
-	height: 100%;
-	margin: 1%;
-	min-width: 320px;
+	
 }
 
 div.sidebarcontent{
-	float: left;
-	max-width: 20%;
-	height: 100%;
-	margin: 1%;
-	min-width: 200px;
+	
 }
 	
 div.landingheader{
-	width: 100%;
 	height: 250px;
 	background-color: #5D737E;
 	margin: 0px;
-	
 }
 
 div.head{
-	width: 100%;
 	height: 200px;
 	background-color: #5D737E;	
 }
 
 div.footer{
 	background-color: #5D737E;
-	width: 100%;
 	height: 100px;
-}
-/* Smaller than standard 960 (devices and browsers) */
-@media screen and (max-width: 959px) {
-	div.main{
-		width: 100%;
-	}
-	div.maincontent{
-		margin: 0%;
-	}
-	div.sidebarcontent{
-		margin:0%;
-	}
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) {
+	/* For Desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
 }
 
 /* All Mobile Sizes (devices and browser) */
 @media screen and (max-width: 767px) {
-	div.maincontent{
-		width: 100%;
-	}
-	div.sidebarcontent{
-		width:100%;
-	}
+	
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
