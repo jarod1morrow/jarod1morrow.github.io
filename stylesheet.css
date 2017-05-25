@@ -4,6 +4,12 @@
 	font-family:Arial;
 }
 
+.row::after {
+	content: "";
+    	clear: both;
+    	display: table;
+}
+
 [class*-"col-"] {
 	float: left;
    	padding: 15px;
@@ -11,12 +17,6 @@
 
 [class*-"col-"] {
 	width: 100%;
-}
-
-.row::after {
-	content: "";
-    	clear: both;
-    	display: table;
 }
 
 body{
@@ -38,15 +38,6 @@ div.navigationbar{
 	
 }
 
-/* Sidebar Template Styling */
-div.maincontent{
-	
-}
-
-div.sidebarcontent{
-	
-}
-	
 div.landingheader{
 	height: 250px;
 	background-color: #5D737E;
