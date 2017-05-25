@@ -12,6 +12,7 @@ div.main{
 	width: 85%;
 	height: 100%;
 	margin: auto;
+	min-width: 320px;
 }
 
 div.maincontent{
@@ -19,7 +20,7 @@ div.maincontent{
 	max-width: 70%;
 	height: 100%;
 	margin: 1%;
-	min-width: 320px;
+	min-width: 300px;
 }
 
 div.sidebarcontent{
@@ -27,7 +28,7 @@ div.sidebarcontent{
 	max-width: 20%;
 	height: 100%;
 	margin: 1%;
-	min-width: 320px;
+	min-width: 300px;
 }
 
 div.content{
