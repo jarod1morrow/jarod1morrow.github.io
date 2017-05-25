@@ -67,10 +67,10 @@ div.footer{
 		width: 100%;
 	}
 	div.maincontent{
-		
+		margin: 0%;
 	}
 	div.sidebarcontent{
-		
+		margin:0%;
 	}
 }
 
@@ -80,6 +80,12 @@ div.footer{
 
 /* All Mobile Sizes (devices and browser) */
 @media screen and (max-width: 767px) {
+	div.maincontent{
+		width: 100%;
+	}
+	div.sidebarcontent{
+		width:100%;
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
