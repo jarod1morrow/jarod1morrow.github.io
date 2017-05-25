@@ -19,6 +19,7 @@ div.maincontent{
 	max-width: 70%;
 	height: 100%;
 	margin: 1%;
+	min-width: 320px;
 }
 
 div.sidebarcontent{
@@ -26,12 +27,12 @@ div.sidebarcontent{
 	max-width: 20%;
 	height: 100%;
 	margin: 1%;
+	min-width: 320px;
 }
 
 div.content{
 	background-color: #EEF0F0;
 	padding: 1%;
-	min-width: 320px;
 }
 	
 div.landingheader{
