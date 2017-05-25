@@ -28,7 +28,7 @@ div.navigationbar{
 /* Sidebar Template Styling */
 div.maincontent{
 	float: left;
-	max-width: 100%;
+	max-width: 70%;
 	height: 100%;
 	margin: 1%;
 	min-width: 300px;
@@ -36,7 +36,7 @@ div.maincontent{
 
 div.sidebarcontent{
 	float: left;
-	max-width: 100%;
+	max-width: 20%;
 	height: 100%;
 	margin: 1%;
 	min-width: 320px;
