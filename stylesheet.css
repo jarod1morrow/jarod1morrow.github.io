@@ -6,7 +6,6 @@ body{
 
 div{
 	overflow: auto;
-	min-width: 300px;
 }
 
 div.main{
@@ -32,6 +31,7 @@ div.sidebarcontent{
 div.content{
 	background-color: #EEF0F0;
 	padding: 1%;
+	min-width: 320px;
 }
 	
 div.landingheader{
