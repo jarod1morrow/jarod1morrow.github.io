@@ -10,7 +10,7 @@
     	display: table;
 }
 
-[class*-"col-"] {
+[class*="col-"] {
 	float: left;
    	padding: 15px;
 }
@@ -36,7 +36,7 @@ div.navigationbar{
 div.landingheader{
 	height: 250px;
 	background-color: #5D737E;
-	margin: 0px;
+	padding: 32px;
 }
 
 div.head{
@@ -50,7 +50,7 @@ div.footer{
 }
 
 /* For Mobile */
-[class*-"col-"] {
+[class*="col-"] {
 	width: 100%;
 }
 
