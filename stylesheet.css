@@ -1,4 +1,7 @@
 /* General Styling*/
+* {
+	box-sizing: border-box;
+}
 body{
 	font-family:Arial;
 	color: #0E0E0E;
