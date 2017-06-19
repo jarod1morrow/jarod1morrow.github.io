@@ -6,15 +6,41 @@
 
 .row::after {
 	content: "";
-    	clear: both;
-    	display: table;
+    clear: both;
+    display: table;
 }
 
 [class*="col-"] {
 	float: left;
    	padding: 15px;
 }
+/*Header Styling*/
+img.headerimg{
+	float: left;
+	margin-right: 0px;
+	padding: 0px !important;
+	height: 100%;
+}
 
+div.landingheader{
+	background-color: #5D737E;
+	padding: 0px !important;
+	height: 125px;
+}
+
+div.header{
+	padding: 0px;
+}
+
+div.navigationbar{
+	
+}
+
+h1.header{
+	font-size: 32px;
+}
+
+/*Other Styling*/
 body{
 	color: #0E0E0E;
 	background-color:#FCFCFC;
@@ -23,21 +49,12 @@ body{
 
 div{
 	overflow: auto;
+	margin: auto;
 }
 
 div.content{
 	background-color: #EEF0F0;
-	padding: 5px;
-}
-
-div.navigationbar{
-	
-}
-
-div.landingheader{
-	height: 250px;
-	background-color: #5D737E;
-	padding: 32px;
+	padding: 15px;
 }
 
 div.head{
@@ -46,10 +63,11 @@ div.head{
 }
 
 div.footer{
-	position: fixed;
 	bottom: 0;
 	background-color: #5D737E;
 	height: 100px;
+	text-align: center;
+	font-size: 12px;
 }
 
 /* For Mobile */
@@ -57,9 +75,21 @@ div.footer{
 	width: 100%;
 }
 
+[class="col-1"] {
+	display: none;
+}
+
+[class="break"] {
+	display: block;
+}
+
+[class="headerimg"] {
+	display: none;
+}
+
 @media only screen and (min-width: 768px) {
 	/* For Desktop: */
-	.col-1 {width: 8.33%;}
+	.col-1 {width: 8.33%; display: block;}
 	.col-2 {width: 16.66%;}
 	.col-3 {width: 25%;}
 	.col-4 {width: 33.33%;}
@@ -71,6 +101,16 @@ div.footer{
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
+
+	.break{
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.headerimg{
+		display: block;
+	}
 }
 /*
 OLD CSS
