@@ -13,6 +13,7 @@
 [class*="col-"] {
 	float: left;
    	padding: 15px;
+    display: inline-block;
 }
 /*Header Styling*/
 img.headerimg{
@@ -38,6 +39,12 @@ div.navigationbar{
 
 h1.header{
 	font-size: 32px;
+    text-align: center;
+}
+
+span.break{
+    
+    
 }
 
 /*Other Styling*/
@@ -75,8 +82,9 @@ div.footer{
 	width: 100%;
 }
 
-[class="col-1"] {
+[class*="sidebar"] {
 	display: none;
+    padding: 0px;
 }
 
 [class="break"] {
@@ -85,9 +93,10 @@ div.footer{
 
 [class="headerimg"] {
 	display: none;
+    width: 
 }
-
-@media only screen and (min-width: 768px) {
+/* Differences for Desktop */
+@media only screen and (min-width: 600px) {
 	/* For Desktop: */
 	.col-1 {width: 8.33%; display: block;}
 	.col-2 {width: 16.66%;}
@@ -105,13 +114,17 @@ div.footer{
 	.break{
 		display: inline;
 	}
-}
-
-@media only screen and (min-width: 500px) {
-	.headerimg{
+    
+    [class*="sidebar"] {
+        display: block;
+        padding: 15px;
+    }
+    
+    .headerimg{
 		display: block;
 	}
 }
+
 /*
 OLD CSS
 body{
