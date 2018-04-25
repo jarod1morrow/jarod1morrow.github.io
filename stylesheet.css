@@ -1,32 +1,144 @@
+/* General Styling*/
+* {
+	box-sizing: border-box;
+	font-family:Arial;
+}
+
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+	float: left;
+   	padding: 15px;
+}
+/*Header Styling*/
+img.headerimg{
+	float: left;
+	margin-right: 0px;
+	padding: 0px !important;
+	height: 100%;
+}
+
+div.landingheader{
+	background-color: #5D737E;
+	padding: 0px !important;
+	height: 125px;
+}
+
+div.header{
+	padding: 0px;
+}
+
+div.navigationbar{
+	
+}
+
+h1.header{
+	font-size: 32px;
+}
+
+/*Other Styling*/
+body{
+	color: #0E0E0E;
+	background-color:#FCFCFC;
+	margin: 0px;
+}
+
+div{
+	overflow: auto;
+	margin: auto;
+}
+
+div.content{
+	background-color: #EEF0F0;
+	padding: 15px;
+}
+
+div.head{
+	height: 200px;
+	background-color: #5D737E;	
+}
+
+div.footer{
+	bottom: 0;
+	background-color: #5D737E;
+	height: 100px;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* For Mobile */
+[class*="col-"] {
+	width: 100%;
+}
+
+[class="col-1"] {
+	display: none;
+}
+
+[class="break"] {
+	display: block;
+}
+
+[class="headerimg"] {
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	/* For Desktop: */
+	.col-1 {width: 8.33%; display: block;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+	.break{
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.headerimg{
+		display: block;
+	}
+}
+/*
+OLD CSS
 body{
 	font-family:Arial;
-	background-image:url("PICS/background.JPG");
-	background-size: 100em 75em;
+	background-color:#dce3ef;
+	background-size: 100% 75em;
 }
 header{
 	background-color:#144A96;
-	height:3em;
+	height:45px;
 	width:100%;
 	position:fixed;
 	z-index:1;
 	left:0px;
-	top:-6px;
+	top:0px;
 }
 a:link{
-	text-decoration:none;
-	color:black;
 }
 a:visited{
-	color:black;
 }
 a.link:hover{
-	color:#144A96;
 }
 img.icon{
-	left:.75em;
-	top:.25em;
-	height:2em;
-	width:2em;
+	left:12px;
+	top:8px;
+	height:32px;
+	width:32px;
 	position:fixed;
 }
 div.head:hover{
@@ -89,3 +201,4 @@ td.h2{
 td.p{
 	font-size:1.25em;
 }
+*/
