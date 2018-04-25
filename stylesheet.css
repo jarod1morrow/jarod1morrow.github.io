@@ -20,17 +20,14 @@ img.headerimg{
 	float: left;
 	margin-right: 0px;
 	padding: 0px !important;
-	height: 100%;
+	max-height: 120px;
 }
 
 div.landingheader{
 	background-color: #5D737E;
 	padding: 0px !important;
-	height: 125px;
-}
-
-div.header{
-	padding: 0px;
+    width: 100%;
+    position: fixed;
 }
 
 div.navigationbar{
@@ -64,11 +61,6 @@ div.content{
 	padding: 15px;
 }
 
-div.head{
-	height: 200px;
-	background-color: #5D737E;	
-}
-
 div.footer{
 	bottom: 0;
 	background-color: #5D737E;
@@ -88,7 +80,7 @@ div.footer{
 }
 
 [class="break"] {
-	display: block;
+    display: block;
 }
 
 [class="headerimg"] {
@@ -110,10 +102,6 @@ div.footer{
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-
-	.break{
-		display: inline;
-	}
     
     [class*="sidebar"] {
         display: block;
@@ -125,6 +113,11 @@ div.footer{
 	}
 }
 
+@media only screen and (min-width: 730px) {
+    [class="break"] {
+        display: inline;
+    }
+}
 /*
 OLD CSS
 body{
