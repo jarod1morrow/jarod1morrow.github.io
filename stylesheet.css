@@ -27,7 +27,8 @@ div.landingheader{
 	background-color: #5D737E;
 	padding: 0px !important;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
 
 div.navigationbar{
