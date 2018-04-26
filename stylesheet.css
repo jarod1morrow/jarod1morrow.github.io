@@ -13,23 +13,22 @@
 [class*="col-"] {
 	float: left;
    	padding: 15px;
+    display: inline-block;
 }
 /*Header Styling*/
 img.headerimg{
 	float: left;
 	margin-right: 0px;
 	padding: 0px !important;
-	height: 100%;
+	max-height: 120px;
 }
 
 div.landingheader{
 	background-color: #5D737E;
 	padding: 0px !important;
-	height: 125px;
-}
-
-div.header{
-	padding: 0px;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 div.navigationbar{
@@ -38,6 +37,12 @@ div.navigationbar{
 
 h1.header{
 	font-size: 32px;
+    text-align: center;
+}
+
+span.break{
+    
+    
 }
 
 /*Other Styling*/
@@ -55,11 +60,7 @@ div{
 div.content{
 	background-color: #EEF0F0;
 	padding: 15px;
-}
-
-div.head{
-	height: 200px;
-	background-color: #5D737E;	
+    border: 1px solid #5D737E;
 }
 
 div.footer{
@@ -75,19 +76,29 @@ div.footer{
 	width: 100%;
 }
 
-[class="col-1"] {
+[class*="sidebar"] {
 	display: none;
+    padding: 0px;
 }
 
 [class="break"] {
-	display: block;
+    display: block;
 }
 
 [class="headerimg"] {
 	display: none;
+    width: 
 }
 
-@media only screen and (min-width: 768px) {
+[class="calendar"] {
+    display: none;
+}
+
+[class="agenda"] {
+    display: block;
+}
+/* Differences for Desktop */
+@media only screen and (min-width: 600px) {
 	/* For Desktop: */
 	.col-1 {width: 8.33%; display: block;}
 	.col-2 {width: 16.66%;}
@@ -101,16 +112,30 @@ div.footer{
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-
-	.break{
-		display: inline;
-	}
-}
-
-@media only screen and (min-width: 500px) {
-	.headerimg{
+    
+    [class*="sidebar"] {
+        display: block;
+        padding: 15px;
+    }
+    
+    .headerimg{
 		display: block;
 	}
+    
+    [class="calendar"] {
+        display: block;
+    }
+    
+    [class="agenda"] {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 730px) {
+    [class="break"] {
+        display: inline;
+    }
 }
 /*
 OLD CSS
