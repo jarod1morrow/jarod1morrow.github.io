@@ -60,6 +60,7 @@ div{
 div.content{
 	background-color: #EEF0F0;
 	padding: 15px;
+    border: 1px solid #5D737E;
 }
 
 div.footer{
@@ -88,6 +89,14 @@ div.footer{
 	display: none;
     width: 
 }
+
+[class="calendar"] {
+    display: none;
+}
+
+[class="agenda"] {
+    display: block;
+}
 /* Differences for Desktop */
 @media only screen and (min-width: 600px) {
 	/* For Desktop: */
@@ -112,6 +121,15 @@ div.footer{
     .headerimg{
 		display: block;
 	}
+    
+    [class="calendar"] {
+        display: block;
+    }
+    
+    [class="agenda"] {
+        display: none;
+    }
+    
 }
 
 @media only screen and (min-width: 730px) {
